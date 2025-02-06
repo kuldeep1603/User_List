@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    /* fonts  */
+    --primary-font  : 'Livvic', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --tertiary-font : "Poppins", sans-serif;
+
+
+    /* color */
+    --primary-color  : #2c3e50;
+    --secondary-color: #F5F5F5;
+    --tertiary-color : #D9D9D9;
+    --black-color    : #000000;
+    --white-color    : #ffffff;
+    --star-color     : #FFAD33;
+    --green-color    : #00FF66;
+    --light-black    : rgba(0, 0, 0, 0.4);
+    --box-shadow     : rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+* {
+    margin         : 0;
+    padding        : 0;
+    box-sizing     : none;
+    outline        : none;
+    text-decoration: none;
+    list-style     : none;
+    letter-spacing : 0.3px;
+}
+
+body {
+    font-family        : var(--tertiary-font) !important;
+    margin             : 0;
+    padding            : 0;
+    box-sizing         : none;
+    outline            : none;
+    overflow-x         : hidden;
+    position           : relative;
+    user-select        : none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+b,
+li,
+ul,
+ol,
+a {
+    margin            : 0;
+    padding           : 0;
+    box-sizing        : none;
+    outline           : none;
+    list-style        : none;
+    letter-spacing    : 0.5px;
+    text-decoration   : none;
+    font-size         : 16px;
+    /* color          : var(--white-color); */
+}
+
+img {
+    width : 100%;
+    height: auto;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--secondary-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius   : 2px;
+}
+
+.navbar-toggler:hover,
+.btn-close:hover {
+    box-sizing: none;
+    box-shadow: none;
+    border    : none;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-sizing: none;
+    box-shadow: none;
+    border    : none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+/* box shadow  */
+.box-shadow {
+    box-shadow: var(--box-shadow);
+}
+
+.box-shadow-1 {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+/* fonts  */
+.primary-font {
+    font-family: var(--primary-font) !important;
+}
+
+.secondary-font {
+    font-family: var(--secondary-font) !important;
+}
+
+.tertiary-font {
+    font-family: var(--tertiary-font) !important;
+}
+
+/* fonts  */
+
+/* bg color  */
+.bg-primary-1 {
+    background-color: var(--primary-color) !important;
+}
+
+.bg-secondary-1 {
+    background-color: var(--secondary-color) !important;
+}
+
+.bg-tertiary-1 {
+    background-color: var(--tertiary-color) !important;
+}
+
+.bg-black {
+    background-color: var(--black-color) !important;
+}
+
+.bg-white {
+    background-color: var(--white-color) !important;
+}
+
+.bg-star {
+    background-color: var(--star-color) !important;
+}
+
+.bg-green-color {
+    background-color: var(--green-color) !important;
+}
+
+
+/* bg color  */
+
+/* text color  */
+
+.primary-color {
+    color: var(--primary-color) !important;
+}
+
+.secondary-color {
+    color: var(--secondary-color) !important;
+}
+
+.tertiary-color {
+    color: var(--tertiary-color) !important;
+}
+
+.star-color {
+    color: var(--star-color) !important;
+}
+
+.green-color {
+    color: var(--green-color) !important;
+}
+
+.light-black {
+    color: var(--light-black) !important;
+}
+
+.text-white {
+    color: var(--white-color) !important;
+}
+
+.text-black {
+    color: var(--black-color) !important;
+}
+
+/* text color  */
+
+.text-ellipsis {
+    white-space  : nowrap;
+    width        : 100%;
+    overflow     : hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* padding  */
+.section {
+    padding: 50px 0px;
+}
+
+.py-08 {
+    padding: 4px 10px;
+}
+
+/* padding  */
+
+/* font size  */
+.fs-6a {
+    font-size: 6px !important;
+}
+
+.fs-8 {
+    font-size: 8px;
+}
+
+.fs-10 {
+    font-size: 10px !important;
+}
+
+.fs-12 {
+    font-size: 12px !important;
+}
+
+.fs-13 {
+    font-size: 13px !important;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+}
+
+.fs-15 {
+    font-size: 15px !important;
+}
+
+.fs-16 {
+    font-size: 16px !important;
+}
+
+.fs-17 {
+    font-size: 17px !important;
+}
+
+.fs-18 {
+    font-size: 18px !important;
+}
+
+.fs-20 {
+    font-size: 20px !important;
+}
+
+.fs-22 {
+    font-size: 22px !important;
+}
+
+.fs-24 {
+    font-size: 24px !important;
+}
+
+.fs-26 {
+    font-size: 26px !important;
+}
+
+.fs-28 {
+    font-size: 28px !important;
+}
+
+.fs-30 {
+    font-size: 30px !important;
+}
+
+.fs-32 {
+    font-size: 32px !important;
+}
+
+.fs-34 {
+    font-size: 34px !important;
+}
+
+.fs-36 {
+    font-size: 36px !important;
+}
+
+.fs-38 {
+    font-size: 38px !important;
+}
+
+.fs-40 {
+    font-size: 40px !important;
+}
+
+.fs-42 {
+    font-size: 42px !important;
+}
+
+.fs-44 {
+    font-size: 44px !important;
+}
+
+.fs-46 {
+    font-size: 46px !important;
+}
+
+.fs-48 {
+    font-size: 48px !important;
+}
+
+.fs-50 {
+    font-size: 50px !important;
+}
+
+/* font size  */
+
+
+
+/* font weight  */
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+/* font weight  */
+
+a {
+    text-decoration: none !important;
+}
+
+/* form  */
+
+.form-control,
+.form-select {
+    color            : var(--black-color) !important;
+    text-transform   : capitalize;
+    font-weight      : 600;
+    font-family      : var(--tertiary-font);
+    font-size: 14px;
+    /* border: 0.3px solid var(--primary-color) !important; */
+
+}
+
+.form-control:focus,
+.form-control:hover,
+.form-select:focus,
+.form-select:hover,
+.form-check-input:focus,
+.form-check-input:hover {
+    box-shadow   : none !important;
+}
+
+/* form  */
+
+
+
+
+
+/* .container-fluid {
+    padding: 0px 60px !important;
+} */
+
+.sidebar {
+    min-height: 100vh;
+    background: var(--primary-color);
+    color: white;
+}
+.user-card {
+    color: white;
+    background: var(--primary-color);
+}
+.post-card {
+    transition: transform 0.2s;
+}
+.post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.stat-card {
+    border-left: 4px solid var(--primary-color) !important;
+}
+
+.profile-image{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width:500px) {
+    .profile-image{
+        width: 70px;
+        height: 70px;
+    }
+    .user-card h2{
+        font-size: 1.2rem;
+    }
+    
+    .user-card p{
+        white-space  : nowrap;
+        width        : 100%;
+        overflow     : hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 5px;
+    }
+}
