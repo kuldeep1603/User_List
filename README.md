@@ -45,8 +45,8 @@ This project is a **React-based User Listing App** that fetches and displays use
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/react-infinite-scroll.git
-   cd react-infinite-scroll
+   git clone https://github.com/kuldeep1603/User_List.git
+   cd User_List
    ```
 2. Install dependencies:
    ```sh
